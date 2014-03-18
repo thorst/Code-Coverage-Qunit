@@ -52,8 +52,9 @@ module.exports = function(grunt) {
 			timeout: 30000,
 			"--web-security": "no",
 			coverage: {
-				src: [ "dist/qunit.js" ],
+				src: [ "src/<%= pkg.name %>.js" ],
 				instrumentedFiles: "temp/",
+				coberturaReport: "report/",
 				htmlReport: "build/report/coverage",
 				lcovReport: "build/report/lcov",
 				linesThresholdPct: 70
