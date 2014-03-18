@@ -1,0 +1,29 @@
+{
+  "name": "simple.js",
+  "title": "Simple Js",
+  "description": "Simple js project to demonstrate obtaining badges",
+  "version": "0.0.1",
+  "homepage": "https://github.com/thorst/Grunt.Qunit.istanbul",
+  "filename": "simple.min.js",
+  "author": {
+    "name": "Todd Horst",
+    "email": "toddmhorst@yahoo.com"
+  },
+  "maintainers": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thorst/Grunt.Qunit.istanbul.git"
+  },
+  "bugs": "https://github.com/thorst/Grunt.Qunit.istanbul/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/thorst/Grunt.Qunit.istanbul/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "1.7"
+  },
+  "keywords": []
+}
