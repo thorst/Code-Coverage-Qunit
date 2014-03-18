@@ -13,7 +13,7 @@ png
 
 svg
 
-[![Build Status](http://img.shields.io/travis/joyent/node.svg)](https://travis-ci.org/thorst/Grunt.Qunit.istanbul)
+[![Build Status](http://img.shields.io/travis/thorst/Grunt.Qunit.istanbul.svg)](https://travis-ci.org/thorst/Grunt.Qunit.istanbul)
 [![Dependency Status](https://david-dm.org/thorst/Grunt.Qunit.istanbul.svg?theme=shields.io)](https://david-dm.org/thorst/Grunt.Qunit.istanbul)
 [![devDependency Status](https://david-dm.org/thorst/Grunt.Qunit.istanbul/dev-status.svg?theme=shields.io)](https://david-dm.org/thorst/Grunt.Qunit.istanbul#info=devDependencies)
 [![Coverage Status](http://img.shields.io/coveralls/jekyll/jekyll.svg)](https://coveralls.io/r/thorst/Grunt.Qunit.istanbul)
