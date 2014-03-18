@@ -1,7 +1,10 @@
 Grunt.Qunit.istanbul
 ====================
 
-test repo with all the badges
+This is a test repo with all the badges you've seen around.
+
+For the most part these are easy to get up and running
+
 
 png
 
