@@ -22,11 +22,10 @@
 	
 	module("Test only add");
 	
-
 	test("Test Add", 2, function () {
-
-		equal(typeof add(1,2), "number", "Add type should be a number");
-		equal(add(1,2), 3, "Add Works");
+		$("#qunit-fixture").html($.simpleAdd(1,2));
+		equal(typeof $.simpleAdd(1,2), "number", "Add type should be a number");
+		equal($.simpleAdd(1,2), 3, "Add Works");
 		
 	});
 
