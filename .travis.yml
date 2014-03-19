@@ -8,5 +8,5 @@ install:
  - npm install
 before_script: 
  - grunt
-after_script:
- - npm run-script grunt ci
+script:
+ - npm run-script ci

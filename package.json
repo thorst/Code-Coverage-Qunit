@@ -22,6 +22,6 @@
   },
   "dependencies": {},
   "scripts": {
-	"ci": "istanbul cover -- grunt test && grunt coveralls:grunt_coveralls_real_coverage"
+	"ci": "grunt test && grunt coveralls"
   }
 }

@@ -52,34 +52,30 @@ module.exports = function(grunt) {
 			timeout: 30000,
 			"--web-security": "no",
 			coverage: {
+				baseUrl: ".",
 				src: [ "src/<%= pkg.name %>.js" ],
 				instrumentedFiles: "temp/",
-				coberturaReport: "report/",
 				htmlReport: "build/report/coverage",
 				lcovReport: "build/report/lcov",
-				linesThresholdPct: 70
+				linesThresholdPct: 0
 			}
 		},
-      files: ["test/**/*.html"]
+		files: ["test/**/*.html"]
     },
     coveralls: {
-    options: {
-      // LCOV coverage file relevant to every target
-      src: "coverage-results/lcov.info",
+		options: {
+			// LCOV coverage file relevant to every target
+			src: "coverage-results/lcov.info",
 
-      // When true, grunt-coveralls will only print a warning rather than
-      // an error, to prevent CI builds from failing unnecessarily (e.g. if
-      // coveralls.io is down). Optional, defaults to false.
-      force: false
-    },
-    your_target: {
-      // Target-specific LCOV coverage file
-      src: "coverage-results/extra-results-*.info"
-    },
-    grunt_coveralls_real_coverage: {
-                src: "coverage/lcov.info"
-            }
-  },
+			// When true, grunt-coveralls will only print a warning rather than
+			// an error, to prevent CI builds from failing unnecessarily (e.g. if
+			// coveralls.io is down). Optional, defaults to false.
+			force: true
+		},
+		grunt_coveralls_real_coverage: {
+			src: "build/report/lcov/lcov.info"
+		}
+	},
     jshint: {
       gruntfile: {
         options: {
@@ -118,6 +114,7 @@ module.exports = function(grunt) {
 
   // These plugins provide necessary tasks.
   grunt.loadNpmTasks("grunt-contrib-jshint");
+  grunt.loadNpmTasks("grunt-coveralls");
   grunt.loadNpmTasks("grunt-qunit-istanbul");
   grunt.loadNpmTasks("grunt-contrib-concat");
   grunt.loadNpmTasks("grunt-contrib-uglify");
