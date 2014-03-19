@@ -18,11 +18,13 @@
     "grunt-contrib-watch": "0.6.0",
     "grunt-coveralls": "0.3.0",
     "grunt-qunit-istanbul": "^0.4.0",
-    "grunt": "0.4.2"
+    "grunt": "0.4.2",
+	"istanbul": "~0.2.2",
+	"coveralls": "^2.8.0"
   },
   "dependencies": {},
   "scripts": {
 	"test": "grunt test",
-	"ci": "grunt coveralls"
+	"ci": "istanbul cover -- grunt test && grunt coveralls:grunt_coveralls_real_coverage"
   }
 }

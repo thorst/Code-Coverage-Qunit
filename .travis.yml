@@ -8,5 +8,4 @@ install:
  - npm install
 before_script: 
  - grunt
-script:
- - npm run-script grunt coveralls | ./node_modules/coveralls/bin/coveralls.js
+script: "npm run-script ci"
