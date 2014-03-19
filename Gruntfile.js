@@ -52,7 +52,6 @@ module.exports = function(grunt) {
 			timeout: 30000,
 			"--web-security": "no",
 			coverage: {
-				baseUrl: ".",
 				src: [ "src/<%= pkg.name %>.js" ],
 				instrumentedFiles: "temp/",
 				htmlReport: "build/report/coverage",
@@ -65,7 +64,7 @@ module.exports = function(grunt) {
     coveralls: {
 		options: {
 			// LCOV coverage file relevant to every target
-			src: "coverage-results/lcov.info",
+			src: "build/report/lcov/lcov.info",
 
 			// When true, grunt-coveralls will only print a warning rather than
 			// an error, to prevent CI builds from failing unnecessarily (e.g. if
