@@ -76,6 +76,9 @@ module.exports = function(grunt) {
       // Target-specific LCOV coverage file
       src: "coverage-results/extra-results-*.info"
     },
+    grunt_coveralls_real_coverage: {
+                src: 'coverage/lcov.info'
+            }
   },
     jshint: {
       gruntfile: {
