@@ -19,3 +19,7 @@ svg
 [![Dependency Status](https://david-dm.org/thorst/Grunt.Qunit.istanbul.svg?theme=shields.io)](https://david-dm.org/thorst/Grunt.Qunit.istanbul)
 [![devDependency Status](https://david-dm.org/thorst/Grunt.Qunit.istanbul/dev-status.svg?theme=shields.io)](https://david-dm.org/thorst/Grunt.Qunit.istanbul#info=devDependencies)
 [![Coverage Status](http://img.shields.io/coveralls/thorst/Grunt.Qunit.istanbul.svg)](https://coveralls.io/r/thorst/Grunt.Qunit.istanbul?branch=master)
+
+No Branch
+
+[![Coverage Status](http://img.shields.io/coveralls/thorst/Grunt.Qunit.istanbul.svg)](https://coveralls.io/r/thorst/Grunt.Qunit.istanbul)
