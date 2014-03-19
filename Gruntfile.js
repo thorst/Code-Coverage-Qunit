@@ -77,7 +77,7 @@ module.exports = function(grunt) {
       src: "coverage-results/extra-results-*.info"
     },
     grunt_coveralls_real_coverage: {
-                src: 'coverage/lcov.info'
+                src: "coverage/lcov.info"
             }
   },
     jshint: {
