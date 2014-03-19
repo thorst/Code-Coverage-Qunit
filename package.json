@@ -22,6 +22,7 @@
   },
   "dependencies": {},
   "scripts": {
-	"ci": "grunt test && grunt coveralls"
+	"test": "grunt test",
+	"ci": "grunt coveralls"
   }
 }
