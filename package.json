@@ -22,6 +22,6 @@
   },
   "dependencies": {},
   "scripts": {
-	"ci": "grunt && grunt coveralls"
+	"ci": "istanbul cover -- grunt test && grunt coveralls"
   }
 }
