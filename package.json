@@ -20,9 +20,5 @@
     "grunt-qunit-istanbul": "^0.4.0",
     "grunt": "0.4.2"
   },
-  "dependencies": {},
-  "scripts": {
-	"test": "grunt test",
-	"ci": "grunt coveralls"
-  }
+  "dependencies": {}
 }

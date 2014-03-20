@@ -2,9 +2,15 @@ Code-Coverage-Qunit
 ====================
 
 ###About
-This is a sample project. It literally took me 3 days to figure out how to put this together. Sort of pathetic. My hang up was coveralls. There are several different examples out there, none using everything I was, and none of it documented well.
+This is a sample project. It literally took me 3 days to figure out how to put this together. Sort of pathetic. My hang up was coveralls. 
+There are several different examples out there, none using everything I was, and none of it documented well.
 
-Hopefully this will help someone. I intend on doing a jasmine setup, and then we will know which is easier.
+Hopefully this will help someone. 
+
+I intend on doing samples of the following:
+* jasmine / instanbul
+* Qunit / blanket
+* jasmine / blanket
 
 Packages:
 * Grunt		- Automated builds
