@@ -1,3 +1,4 @@
 node_modules/*
 !node_modules/grunt-qunit-istanbul/
-#build/report
+build/report
+node_modules/grunt-qunit-istanbul/temp/*
