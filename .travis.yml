@@ -9,4 +9,4 @@ install:
 before_script: 
  - grunt
 script: 
-- npm run-script ci
+ - grunt coveralls
