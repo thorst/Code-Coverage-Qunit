@@ -66,13 +66,8 @@ module.exports = function(grunt) {
 			// LCOV coverage file relevant to every target
 			src: "build/report/lcov/lcov.info",
 
-			// When true, grunt-coveralls will only print a warning rather than
-			// an error, to prevent CI builds from failing unnecessarily (e.g. if
-			// coveralls.io is down). Optional, defaults to false.
+			// dont fail if coveralls fails
 			force: true
-		},
-		grunt_coveralls_real_coverage: {
-			src: "build/report/lcov/lcov.info"
 		}
 	},
     jshint: {
