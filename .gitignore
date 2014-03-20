@@ -1,2 +1,3 @@
-/node_modules/
-build/report
+node_modules/*
+!node_modules/grunt-qunit-istanbul/
+#build/report
