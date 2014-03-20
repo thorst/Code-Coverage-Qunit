@@ -63,11 +63,13 @@ module.exports = function(grunt) {
     },
     coveralls: {
 		options: {
-			// LCOV coverage file relevant to every target
-			src: "build/report/lcov/lcov.info",
+			
 
 			// dont fail if coveralls fails
 			force: true
+		},
+		main_target: {
+			src: "build/report/lcov/lcov.info"
 		}
 	},
     jshint: {
