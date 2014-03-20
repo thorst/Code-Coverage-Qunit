@@ -29,6 +29,18 @@
 		
 	});
 
+	/*test("Test Add", 2, function () {
+		$("#qunit-fixture").html($.simpleSubtract (1,2));
+		equal(typeof $.simpleSubtract (1,2), "number", "Add type should be a number");
+		equal($.simpleSubtract (1,2), -1, "Add Works");
+		
+	});
 	
+	test("Test Add", 2, function () {
+		$("#qunit-fixture").html($.simpleMultiply (1,2));
+		equal(typeof $.simpleMultiply (1,2), "number", "Add type should be a number");
+		equal($.simpleMultiply (1,2), 2, "Add Works");
+		
+	});*/
 
 }(jQuery));
