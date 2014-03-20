@@ -1,4 +1,4 @@
-/*! Simple Js - v0.0.1 - 2014-03-19
+/*! Simple Js - v0.0.1 - 2014-03-20
 * https://github.com/thorst/Grunt.Qunit.istanbul
 * Copyright (c) 2014 Todd Horst; Licensed MIT */
 (function ($) {
