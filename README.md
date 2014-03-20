@@ -36,11 +36,9 @@ png badges
 
 svg badges
 
-[![Build Status](http://img.shields.io/travis/thorst/Code-Coverage-Qunit.svg)](https://travis-ci.org/thorst/Code-Coverage-Qunit?branch=master)
+[![Build Status](https://travis-ci.org/thorst/Code-Coverage-Qunit.svg?branch=master)](https://travis-ci.org/thorst/Code-Coverage-Qunit)
 [![Dependency Status](https://david-dm.org/thorst/Code-Coverage-Qunit.svg?theme=shields.io)](https://david-dm.org/thorst/Code-Coverage-Qunit)
 [![devDependency Status](https://david-dm.org/thorst/Code-Coverage-Qunit/dev-status.svg?theme=shields.io)](https://david-dm.org/thorst/Code-Coverage-Qunit#info=devDependencies)
 [![Coverage Status](http://img.shields.io/coveralls/thorst/Code-Coverage-Qunit.svg)](https://coveralls.io/r/thorst/Code-Coverage-Qunit?branch=master)
 
-without branch specified
 
-[![Coverage Status](http://img.shields.io/coveralls/thorst/Code-Coverage-Qunit.svg)](https://coveralls.io/r/thorst/Code-Coverage-Qunit)
