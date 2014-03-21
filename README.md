@@ -9,16 +9,7 @@ Hopefully this will help someone.
 
 I intend on doing other samples.
 
-####3/21/2014
-
-Istanbul 1098/86
-Blanket 587/95
-
-Jasmine 6492/878
-Mocha 4232/721
-Karma 3330/535
-Qunit 2835/555
-
+###Using
 Packages:
 * Grunt		- Automated builds
 * Qunit		- Testing (others: jasmine, mocha, karma)
@@ -53,4 +44,19 @@ svg badges
 [![devDependency Status](https://david-dm.org/thorst/Code-Coverage-Qunit/dev-status.svg?theme=shields.io)](https://david-dm.org/thorst/Code-Coverage-Qunit#info=devDependencies)
 [![Coverage Status](http://img.shields.io/coveralls/thorst/Code-Coverage-Qunit.svg)](https://coveralls.io/r/thorst/Code-Coverage-Qunit?branch=master)
 
+
+###Popularity
+####3/21/2014
+
+Istanbul 1098/86
+
+Blanket 587/95
+
+Jasmine 6492/878
+
+Mocha 4232/721
+
+Karma 3330/535
+
+Qunit 2835/555
 
