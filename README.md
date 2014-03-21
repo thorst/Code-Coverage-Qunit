@@ -7,10 +7,7 @@ There are several different examples out there, none using everything I was, and
 
 Hopefully this will help someone. 
 
-I intend on doing samples of the following:
-* jasmine / instanbul
-* Qunit / blanket
-* jasmine / blanket
+I intend on doing other samples.
 
 Packages:
 * Grunt		- Automated builds
@@ -26,6 +23,11 @@ Services:
 If you have a different setup that you have working let me know and I'd like to setup a sample.
 
 Also if you see something I'm doing that isnt needed please let me know. I'd like to pair this down as far as I can.
+
+###Using
+1. Fork and clone the repo.
+1. Run `npm install` to install all dependencies (including grunt).
+1. Run `grunt` to grunt this project.
 
 png badges
 
