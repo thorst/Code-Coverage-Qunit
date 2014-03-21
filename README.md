@@ -9,6 +9,16 @@ Hopefully this will help someone.
 
 I intend on doing other samples.
 
+####3/21/2014
+
+Istanbul 1098/86
+Blanket 587/95
+
+Jasmine 6492/878
+Mocha 4232/721
+Karma 3330/535
+Qunit 2835/555
+
 Packages:
 * Grunt		- Automated builds
 * Qunit		- Testing (others: jasmine, mocha, karma)
