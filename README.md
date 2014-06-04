@@ -47,10 +47,12 @@ svg badges
 
 ###Popularity
 ####3/21/2014
-
+##Coverage
 Istanbul 1098/86
 
 Blanket 587/95
+
+##Testing
 
 Jasmine 6492/878
 
