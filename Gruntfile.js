@@ -106,6 +106,22 @@ module.exports = function(grunt) {
         tasks: ["jshint:test", "qunit"]
       },
     },
+	ftp_push: {
+		options: {
+			username: process.env.ftpUser,
+			password: process.env.ftpPassword,
+			host: process.env.ftpHost,
+			dest: "seoul.freehostia.com/QunitCoverage",
+			port: 21
+		},
+		files: {
+			expand: true,
+			cwd: '.',
+			src: [
+				"build/report/coverage/*", "build/report/coverage/**/*"
+			]
+		}
+	}
   });
 
   // These plugins provide necessary tasks.
@@ -115,8 +131,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-contrib-concat");
   grunt.loadNpmTasks("grunt-contrib-uglify");
   grunt.loadNpmTasks("grunt-contrib-watch");
+  grunt.loadNpmTasks('grunt-ftp-push');
+  
 
   // Default task.
   grunt.registerTask("default", ["jshint", "qunit", "concat", "uglify"]);
-
+  grunt.registerTask('ftpDeploy00', ['ftp_push']);
 };

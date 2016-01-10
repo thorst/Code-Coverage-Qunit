@@ -4,9 +4,10 @@ node_js:
   - "0.10"
 before_install: 
  - npm install -g grunt-cli
-install: 
- - npm install
+# run grunt default
 before_script: 
  - grunt
 script: 
  - grunt coveralls
+after_success:
+  grunt ftpDeploy00
