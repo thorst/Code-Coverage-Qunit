@@ -118,7 +118,7 @@ module.exports = function(grunt) {
 			expand: true,
 			cwd: ".",
 			src: [
-				"build/report/coverage/*", "build/report/coverage/**/*"
+				["dist/**", "build/report/coverage/*", "build/report/coverage/**/*"
 			]
 		}
 	}
@@ -135,6 +135,6 @@ module.exports = function(grunt) {
   
 
   // Default task.
-  grunt.registerTask("default", ["jshint", "qunit", "concat", "uglify"]);
+  grunt.registerTask("default00", ["jshint", "qunit", "concat", "uglify"]);
   grunt.registerTask("ftpDeploy00", ["ftp_push"]);
 };

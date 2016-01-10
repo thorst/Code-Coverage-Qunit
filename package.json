@@ -1,11 +1,11 @@
 {
   "name": "simple.js",
-  "version": "0.0.0-ignored",
+  "version": "1.0.0",
   "engines": {
     "node": ">= 0.6.0"
   },
   "scripts": {
-    "test": "grunt qunit"
+    "test": "grunt default00"
   },
   "repository": {
     "type": "git",
