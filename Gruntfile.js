@@ -116,7 +116,7 @@ module.exports = function(grunt) {
 		},
 		files: {
 			expand: true,
-			cwd: '.',
+			cwd: ".",
 			src: [
 				"build/report/coverage/*", "build/report/coverage/**/*"
 			]
