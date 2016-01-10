@@ -118,7 +118,7 @@ module.exports = function(grunt) {
 			expand: true,
 			cwd: ".",
 			src: [
-				["dist/**", "build/report/coverage/*", "build/report/coverage/**/*"
+				"dist/**", "build/report/coverage/*", "build/report/coverage/**/*"
 			]
 		}
 	}
