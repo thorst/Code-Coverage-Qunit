@@ -131,10 +131,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-contrib-concat");
   grunt.loadNpmTasks("grunt-contrib-uglify");
   grunt.loadNpmTasks("grunt-contrib-watch");
-  grunt.loadNpmTasks('grunt-ftp-push');
+  grunt.loadNpmTasks("grunt-ftp-push");
   
 
   // Default task.
   grunt.registerTask("default", ["jshint", "qunit", "concat", "uglify"]);
-  grunt.registerTask('ftpDeploy00', ['ftp_push']);
+  grunt.registerTask("ftpDeploy00", ["ftp_push"]);
 };
