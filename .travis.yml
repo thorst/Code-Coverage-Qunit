@@ -7,7 +7,7 @@ before_install:
 # run grunt default
 before_script: 
  - grunt
-script: 
- - grunt coveralls
+#script: 
+# - grunt coveralls
 after_success:
   grunt ftpDeploy00
