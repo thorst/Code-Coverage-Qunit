@@ -45,20 +45,5 @@ svg badges
 [![Coverage Status](http://img.shields.io/coveralls/thorst/Code-Coverage-Qunit.svg)](https://coveralls.io/r/thorst/Code-Coverage-Qunit?branch=master)
 
 
-###Popularity
-####3/21/2014
-##Coverage
-Istanbul 1098/86
-
-Blanket 587/95
-
-##Testing
-
-Jasmine 6492/878
-
-Mocha 4232/721
-
-Karma 3330/535
-
-Qunit 2835/555
-
+## Release notes
+1. Trigger build
